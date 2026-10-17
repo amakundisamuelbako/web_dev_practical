@@ -1,0 +1,33 @@
+body {
+	font-family: system-ui, sans-serif;
+	line-height: 1.6;
+	max-width: 40rem;
+	margin: 2rem auto;
+	padding: 0 1rem;
+	color: #1f2933;
+	background-color: #ffffff;
+}
+
+h1 {
+	color: #1f3a5f;
+}
+
+a {
+	color: #0b5cad;
+}
+
+button {
+	font: inherit;
+	padding: 0.5rem 1rem; 
+	cursor: pointer;
+}
+
+body.dark {
+	color: #e4e7eb;
+	background-color: #17202a;
+}
+
+body.dark h1, 
+body.dark a {
+	color: #9ecbff;
+}
