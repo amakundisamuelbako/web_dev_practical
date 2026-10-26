@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback - Kite Hill Nature Club</title>
+  </head>
+  <body>
+    <main>
+      <h1>Tell us about your walk</h1>
+      <form action="thanks.html">
+        <p>
+          <label for="name">Your name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            autocomplete="name"
+            required
+          />
+        </p>
+        <p>
+          <label for="email">email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            autocomplete="email"
+            required
+          />
+        </p>
+        <fieldset>
+          <legend>How would you rate the walk?</legend>
+          <p>
+            <input type="radio" id="rate-1" name="rating" value="good" />
+            <label for="rate-1">Good</label>
+          </p>
+          <p>
+            <input type="radio" id="rate-2" name="rating" value="okay" />
+            <label for="rate-2">Okay</label>
+          </p>
+          <p>
+            <input type="radio" id="rate-3" name="rating" value="poor" />
+            <label for="rate-3">Poor</label>
+          </p>
+        </fieldset>
+        <fieldset>
+          <legend>What did you enjoy? (Choose any)</legend>
+          <p>
+            <input type="checkbox" id="like-birds" name="liked" value="birds" />
+            <label for="like-birds">The birds</label>
+          </p>
+          <p>
+            <input type="checkbox" id="like-guide" name="liked" value="guide" />
+            <label for="like-guide">The guide</label>
+          </p>
+          <p>
+            <input
+              type="checkbox"
+              id="like-people"
+              name="liked"
+              value="people"
+            />
+            <label for="like-people">Meeting people</label>
+          </p>
+        </fieldset>
+        <p>
+          <label for="day">Best day for the next walk</label><br />
+          <select name="day" id="day">
+            <option value="sat">Saturday</option>
+            <option value="sun">Sunday</option>
+            <option value="wed">Wednesday evening</option>
+          </select>
+        </p>
+        <p>
+          <label for="comments">Any other comments?</label>
+          <textarea name="comments" id="comments" rows="5" cols="40"></textarea>
+        </p>
+        <button type="submit">Send Feedback</button>
+      </form>
+    </main>
+  </body>
+</html>
