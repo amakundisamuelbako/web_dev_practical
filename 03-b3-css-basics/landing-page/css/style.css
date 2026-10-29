@@ -68,3 +68,146 @@ main {
 section {
   margin-bottom: 3rem;
 }
+
+/* ===== 2. Header and navigation ===== */
+.site-header {
+  padding: 1rem 1.25rem;
+  text-align: center;
+  border-bottom: 1px solid var(--color-line);
+}
+
+.brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.nav-list {
+  list-style: none;
+  margin: 0.5rem 0 0;
+  padding: 0;
+}
+.nav-list li {
+  display: inline-block;
+  margin: 0 0.75rem;
+}
+/* ===== 3. Hero and buttons ===== */
+.hero {
+  margin-top: 1.5rem;
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  background-image: linear-gradient(180deg, var(--color-surface), #ffffff);
+  border: 1px solid #fed7aa;
+  border-radius: 1rem;
+}
+.lead {
+  font-size: 1.25rem;
+  color: var(--color-muted);
+}
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border: 0;
+  border-radius: 0.5rem;
+  font: inherit;
+  font-weight: 700;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: var(--color-brand);
+  cursor: pointer;
+}
+.button:hover {
+  background-color: var(--color-brand-dark);
+}
+.flask-art {
+  display: block;
+  margin: 1.5rem auto 0;
+}
+/* ===== 4. Features ===== */
+.feature {
+  margin-bottom: 1rem;
+  padding: 1.25rem;
+  border: 1px solid var(--color-line);
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 0.08);
+}
+.feature h3 {
+  color: var(--color-brand);
+}
+.feature p:last-child {
+  margin-bottom: 0;
+}
+/* ===== 5. Specifications table ===== */
+.specs-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.specs-table caption {
+  text-align: left;
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+}
+.specs-table th,
+.specs-table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--color-line);
+}
+.specs-table thead th {
+  color: #ffffff;
+  background-color: #1f3a5f;
+}
+.specs-table tbody tr:nth-child(even) {
+  background-color: hsl(210, 40%, 98%);
+}
+/* ===== 6. Testimonial ===== */
+.testimonial figure {
+  margin: 0;
+}
+.testimonial blockquote {
+  margin: 0;
+  padding: 1rem 1.5rem;
+  border-left: 5px solid var(--color-brand);
+  font-size: 1.25rem;
+  font-style: italic;
+}
+.testimonial blockquote p {
+  margin: 0;
+}
+.testimonial figcaption {
+  padding: 0.5rem 0 0 1.5rem;
+  color: var(--color-muted);
+}
+/* ===== 7. Signup form ===== */
+.signup {
+  padding: 1.5rem;
+  background-color: var(--color-surface);
+  border-radius: 1rem;
+}
+.signup label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+}
+.signup input {
+  display: block;
+  width: 100%;
+  max-width: 24rem;
+  padding: 0.6rem 0.75rem;
+  font: inherit;
+  border: 2px solid #616e7c;
+  border-radius: 0.5rem;
+}
+/* ===== 8. Footer ===== */
+.site-footer {
+  margin-top: 3rem;
+  padding: 1.5rem 1.25rem;
+  text-align: center;
+  color: var(--color-muted);
+  border-top: 1px solid var(--color-line);
+}
+
+.site-footer p {
+  margin: 0;
+}
